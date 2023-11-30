@@ -112,7 +112,7 @@
   <li>
     <h3>Тест И1</h3>
     <ul>
-      <li>Методы: int fibonachi(int num), double my_sqrt(double num)</li>
+      <li>Методы: int fibonachi(int num), double * realQuadraticRootst(double a, double b, double c)</li>
       <li>Описание: Проверяем, можно ли использовать результат работы функции fibonachi в функции realQuadraticRoots</li>
       <li>Входные данные: fibonachi: 1, realQuadraticRoots: fibonachi(1), -4, 4</li>
       <li>Ожидаемый результат: 2</li>
