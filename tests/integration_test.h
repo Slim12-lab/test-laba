@@ -12,8 +12,10 @@ extern "C" {
 #include "myfunc.h"
 }
 
-TEST(integrationTest, sqrtFibonachi) {
-    ASSERT_EQ(my_sqrt(fibonachi(4)), sqrt(3));
+TEST(integrationTest, rootsFibonachi) {
+    double *roots = realQuadraticRoots(fibonachi(1), -4, 4);
+    ASSERT_EQ(roots[0], 2);
+    ASSERT_EQ(roots[1], 2);
 }
 
 

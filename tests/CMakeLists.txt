@@ -11,7 +11,6 @@ include(GoogleTest)
 
 set (TESTS
         fibonachi_test.h
-	my_sqrt_test.h
 	integration_test.h
 	realQuadraticRoots_test.h
         )

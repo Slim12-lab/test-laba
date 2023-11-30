@@ -24,13 +24,6 @@ int fibonachi(int num) {
     return next;
 }
 
-double my_sqrt(double num) {
-    if(num<0){
-       return 0;
-    }
-    return sqrt(num);
-}
-
 double* realQuadraticRoots(double a, double b, double c) {
     double *roots = malloc(2 * sizeof(double)); 
     double discriminant = b * b - 4 * a * c;

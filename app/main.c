@@ -5,20 +5,35 @@
 int main()
 {
     double *roots;
-
+    
     printf("Enter number\n");
     double n = 0;
-    scanf("%lf", &n);
-    printf("SQRT %f\n", my_sqrt(n));
+    if (scanf("%lf", &n) != 1) {
+        printf("Enter correct number!\n");
+        return 1;
+    }
+
+    if (n < 0) {
+        printf("Enter non-negative number!\n");
+        return 1;
+    }
     printf("Fibonachi %d\n", fibonachi(n));
-    printf("SQRT Fibonachi %f\n", my_sqrt(fibonachi(n)));
     printf("Enter a, b, c\n");
     double a = 0;
-    scanf("%lf", &a);
+    if (scanf("%lf", &a) != 1) {
+        printf("Enter correct number!\n");
+        return 1;
+    }
     double b = 0;
-    scanf("%lf", &b);
+    if (scanf("%lf", &b) != 1) {
+        printf("Enter correct number!\n");
+        return 1;
+    }
     double c = 0;
-    scanf("%lf", &c);
+    if (scanf("%lf", &c) != 1) {
+        printf("Enter correct number!\n");
+        return 1;
+    }
     roots = realQuadraticRoots(a, b, c);
     printf("ROOT1 %f\n", roots[0]);
     printf("ROOT2 %f\n", roots[1]);
