@@ -34,7 +34,7 @@ int main()
         printf("Enter correct number!\n");
         return 1;
     }
-    int res = realQuadraticRoots(a, b, c, roots);
+    double res = realQuadraticRoots(a, b, c, roots);
 	
     if (res == NULL) {
         printf("No real roots\n");
