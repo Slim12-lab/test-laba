@@ -5,6 +5,7 @@
 int main()
 {
     double *roots;
+    double *roots = malloc(2 * sizeof(double));
     
     printf("Enter number\n");
     double n = 0;
