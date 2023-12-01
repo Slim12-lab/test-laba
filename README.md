@@ -1,5 +1,4 @@
 [![Coverage Status](https://coveralls.io/repos/github/Slim12-lab/test-laba/badge.svg?branch=main)](https://coveralls.io/github/Slim12-lab/test-laba?branch=main)
-[![CI/CD GitHub Actions](https://github.com/Slim12-lab/test-laba/actions/workflows/test-action.yml/badge.svg)](https://github.com/Slim12-lab/test-laba/actions/workflows/test-action.yml)
 [![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=Slim12-lab_test-laba&metric=alert_status)](https://sonarcloud.io/dashboard?id=Slim12-lab_test-laba)
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Slim12-lab_test-laba&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Slim12-lab_test-laba)
 [![Code smells](https://sonarcloud.io/api/project_badges/measure?project=Slim12-lab_test-laba&metric=code_smells)](https://sonarcloud.io/dashboard?id=Slim12-lab_test-laba)
