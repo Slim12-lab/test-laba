@@ -44,7 +44,7 @@ TEST(myquadraticrootsTest, NoRealRoots) {
     realQuadraticRoots(a, b, c, roots);
     ASSERT_TRUE(roots != NULL);
     ASSERT_DOUBLE_EQ(roots[0], 0.0);
-    ASSERT_DOUBLE_EQ(roots[1], .0);
+    ASSERT_DOUBLE_EQ(roots[1], 1.0);
 }
 
 #endif 
