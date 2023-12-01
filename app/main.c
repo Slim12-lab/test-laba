@@ -4,8 +4,7 @@
 
 int main()
 {
-    double *roots;
-    double *roots = malloc(2 * sizeof(double));
+    double roots[2];
     
     printf("Enter number\n");
     double n = 0;
@@ -35,8 +34,13 @@ int main()
         printf("Enter correct number!\n");
         return 1;
     }
-    roots = realQuadraticRoots(a, b, c);
-    printf("ROOT1 %f\n", roots[0]);
-    printf("ROOT2 %f\n", roots[1]);
-    free(roots);
+    int res = realQuadraticRoots(a, b, c, roots);
+	
+    if (res == NULL) {
+        printf("No real roots\n");
+    } else {
+        printf("ROOT1 %f\n", roots[0]);
+        printf("ROOT2 %f\n", roots[1]);
+    }
+    return 0;
 }

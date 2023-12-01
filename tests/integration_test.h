@@ -13,9 +13,14 @@ extern "C" {
 }
 
 TEST(integrationTest, rootsFibonachi) {
-    double *roots = realQuadraticRoots(fibonachi(1), -4, 4);
-    ASSERT_EQ(roots[0], 2);
-    ASSERT_EQ(roots[1], 2);
+     double roots[2];
+    realQuadraticRoots(fibonachi(6), -22, 14, roots);
+
+    double expectedRoot1 = 1.75;
+    double expectedRoot2 = 1.00; 
+
+    ASSERT_EQ(roots[0], expectedRoot1);
+    ASSERT_EQ(roots[1], expectedRoot2);
 }
 
 
